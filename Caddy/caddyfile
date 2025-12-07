@@ -1,0 +1,6 @@
+https://localhost:8443 {
+    root * C:/online_shopping
+    php_fastcgi 127.0.0.1:9000
+    file_server
+    tls C:/online_shopping/localhost.crt C:/online_shopping/key.pem
+}
